@@ -1,5 +1,8 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>OLIVE YOUNG</title>
         <style>
             .banner {
@@ -26,14 +29,19 @@
                 font-weight: bold;
             }
             h1 {
-                text-align: left;
-                color: rgb(46, 84, 46);
-                font-size: 45px;
-                font-family: 'Courier New', Courier, monospace;
-            }
-            .search-section, .search-container {
+            text-align: left;
+            color: rgb(46, 84, 46);
+            font-size: 45px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+            .search-section,  {
                 text-align: center;
             }
+            .search-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
             .search-section h2 {
                 font-size: 24px;
                 margin-bottom: 20px;
@@ -206,16 +214,18 @@
     display: flex;
     justify-content: space-between;
 }
-.slider .buttons button{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #fff5;
-    color: #fff;
-    border: none;
-    font-family: monospace;
-    font-weight: bold;
-}
+.slider .buttons button {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #fff5;
+            color: #fff;
+            border: none;
+            font-family: monospace;
+            font-weight: bold;
+            background-image: url("banner.jpg"); 
+            background-size: cover; 
+        }
 .slider .dots{
     position: absolute;
     bottom: 10px;
@@ -244,12 +254,7 @@
         height: 400px;
     }
 }
-h1{
-            text-align: left;
-            color:rgb(46, 84, 46);
-            font-size:45px;
-            font-family:'Courier New', Courier,monospace;
-        }
+
         .search-section {
             text-align: center;
         } 
